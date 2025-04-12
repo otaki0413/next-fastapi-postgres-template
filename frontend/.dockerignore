@@ -1,0 +1,25 @@
+# node_modules は volume で扱うため除外
+node_modules
+
+# 出力されたビルド
+.next
+out
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 環境変数など
+.env
+.env.*
+
+# バージョン管理
+.git
+.gitignore
+
+# IDE・OSファイル
+.vscode/
+.idea/
+.DS_Store
