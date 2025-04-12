@@ -1,0 +1,24 @@
+# Pythonキャッシュやビルドファイル
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# テストキャッシュやカバレッジ
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 仮想環境（もし置いてるなら）
+venv/
+.env
+.env.*
+
+# バージョン管理
+.git
+.gitignore
+
+# IDE・OSファイル
+.vscode/
+.idea/
+.DS_Store
